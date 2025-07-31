@@ -11,12 +11,6 @@ A landing page foi construída com foco em:
 - Estilização com CSS puro
 - Responsividade para diferentes tamanhos de tela
 
-## 📸 Demonstração
-
-> *Você pode inserir aqui uma imagem da página ou um link para a demo hospedada (ex: GitHub Pages ou Vercel)*
-
-![Screenshot do projeto](caminho/para/imagem.png)
-
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
