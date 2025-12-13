@@ -1,43 +1,73 @@
-# 🛍️ Landing Page de Loja - HTML & CSS
+# 🛍️ Landing Page de Loja — HTML & CSS
+🎨 Landing page responsiva para loja fictícia, focada em design e estrutura web
 
-Este projeto é uma landing page simples e responsiva para uma loja fictícia, desenvolvida com HTML5 e CSS3. O objetivo principal foi praticar e consolidar meus conhecimentos em estruturação de páginas web e estilização visual.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Estrutura%20Web-red?logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-Estilização-blue?logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Responsive-Layout-green"/>
+  <img src="https://img.shields.io/badge/Frontend-Projeto-lightgrey"/>
+  <img src="https://img.shields.io/badge/Git-Versionamento-orange?logo=git&logoColor=white"/>
+</p>
 
-## 🔍 Sobre o Projeto
+---
+
+## 📖 Sobre o Projeto
+
+Este projeto consiste em uma **landing page simples e responsiva** para uma **loja fictícia**, desenvolvida utilizando **HTML5 e CSS3**.
+
+O principal objetivo foi **praticar e consolidar conceitos fundamentais de desenvolvimento front-end**, com foco em estrutura semântica, organização visual e responsividade.
+
+---
+
+## 🎯 Objetivos do Projeto
 
 A landing page foi construída com foco em:
 
-- Layout limpo e atrativo
-- Estrutura semântica com HTML5
-- Estilização com CSS puro
-- Responsividade para diferentes tamanhos de tela
+- Layout limpo, moderno e atrativo  
+- Estrutura semântica utilizando HTML5  
+- Estilização utilizando apenas CSS puro  
+- Responsividade para diferentes tamanhos de tela  
 
-## 🛠️ Tecnologias Utilizadas
-
-- HTML5
-- CSS3
+---
 
 ## ✨ Funcionalidades
 
-- Apresentação de produtos
-- Seção de destaque/banner
-- Seções com chamadas para ação (CTA)
-- Design responsivo (mobile-friendly)
+- Seção de destaque (banner principal)  
+- Apresentação de produtos  
+- Seções com chamadas para ação (**CTA**)  
+- Layout **mobile-friendly**, adaptável a diferentes dispositivos  
 
-## 📚 O que eu aprendi
+---
 
-- Como estruturar uma página com HTML semântico
-- Aplicar estilos reutilizáveis com CSS
-- Princípios básicos de responsividade com media queries
-- Organização de código para projetos front-end
+## 🛠️ Tecnologias Utilizadas
 
-## 🚀 Próximos Passos
+- **HTML5** — Estrutura e semântica da página  
+- **CSS3** — Estilização, layout e responsividade  
 
-- Adicionar animações com CSS
-- Integrar formulário de contato (fictício)
-- Publicar em uma plataforma como GitHub Pages
+---
 
-## 📁 Como Usar
+## 📁 Estrutura do Projeto
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/yasmimcosm/landingpage.facaartemalharia.git
+```text
+📦 landingpage.facaartemalharia
+ ┣ 📜 index.html
+ ┣ 📜 style.css
+ ┗ 📜 README.md
+```
+
+### 📚 Aprendizados
+
+Com o desenvolvimento deste projeto, foi possível:
+
+* Estruturar páginas utilizando HTML semântico;
+* Aplicar estilos reutilizáveis com CSS;
+* Trabalhar conceitos básicos de responsividade com media queries;
+* Organizar arquivos e código para projetos front-end;
+* Desenvolver uma landing page com foco em experiência visual e usabilidade.
+
+---
+
+### 🚀 Próximos Passos
+* ✨ Adicionar animações utilizando CSS
+* 📨 Integrar um formulário de contato (simulado)
+* 🌐 Publicar o projeto no GitHub Pages
