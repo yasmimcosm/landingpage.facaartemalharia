@@ -183,6 +183,15 @@ body {
     border-radius: 50px;
     margin-top: 50px;
     font-size: 22px;
+    border: 3px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.4s ease;
+}
+
+.button--primary:hover {
+    color: #a30303;
+    background-color: #eaeaeb;
+    border-color: #a30303;
 }
 
 .button--secondary {
@@ -194,6 +203,20 @@ body {
     border-radius: 50px;
     margin-top: 15px;
     font-size: 17px;
+    border: 3px solid transparent;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    transition: 0.4s ease;
+}
+
+.button--secondary:hover {
+    color: #a30303;
+    background-color: #fff;
+    border-color: #a30303;
+}
+
+/* ===== BANNER PROMO ===== */
+.banner-promo__image{
+    margin: 200px 0;
 }
 
 /* ===== CATALOG ===== */
@@ -304,7 +327,6 @@ footer {
     color: #a7a7a7;
     display: flex;
     justify-content: center;
-    color: #a7a7a7;
     font-size: 13px;
     padding: 10px 30px;
 }

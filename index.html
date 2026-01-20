@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça Arte Malharia - Site </title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
@@ -19,22 +19,22 @@
         
     <div class="header__main">
         <div class="header__logo">
-            <img src="img/LOGO.png" alt="Logo no início da página">
+            <img src="img/logo.png" alt="Logo no início da página">
         </div>
             
         <nav class="header__nav">
             <ul class="header__menu">
                 <li><a class="header__link" href="#">Home</a></li>
-                <li><a class="header__link" href="#p1">Produtos</a></li>
-                <li><a class="header__link" href="#sobre">Sobre</a></li> 
-                <li><a class="header__link" href="#contato">Contato</a></li>
+                <li><a class="header__link" href="#best-sellers">Produtos</a></li>
+                <li><a class="header__link" href="#about">Sobre</a></li> 
+                <li><a class="header__link" href="#contact">Contato</a></li>
             </ul>
         </nav>
 
         <div class="header__icons">
-            <img src="img/duvidas.png" alt="Duvidas" width="4%" height="10%">
-            <img src="img/carrinho.png" alt="Carrinho" width="8%" height="10%">
-            <img src="img/perfil4.png" alt="Perfil" width="8%" height="8%">
+            <img src="img/header__info.png" alt="Duvidas" width="4%" height="10%">
+            <img src="img/header__cart.png" alt="Carrinho" width="8%" height="10%">
+            <img src="img/header__perfil.png" alt="Perfil" width="8%" height="8%">
         </div>
     </div>
 </header>
@@ -43,7 +43,7 @@
 <section class="hero">
     <h2 class="hero__title">Encontre o seu estilo com nossas camisas personalizadas</h2>
     <p class="hero__subtitle">Feitas sob medida para você!</p>
-    <a class="button button--primary" href="#produto1" class="button button--primary">Ver Templates →</a>
+    <a class="button button--primary" href="#best-sellers">Ver Templates →</a>
 </section>
 
 <!-- ===== CATEGORIES ===== -->
@@ -73,7 +73,7 @@
 </section>
 
 <!-- ===== BEST-SELLERS ===== -->
-<section class="best-sellers">
+<section id="best-sellers" class="best-sellers">
     <h1>Mais Vendidos</h1>
 
     <div class="swiper best-sellers__slider">
@@ -81,7 +81,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide best-sellers__item">
-                <img src="img/camiseta.jpeg" alt="Modelo usando uma camisa branca com estampa nas costas" width="300px" height="400px">
+                <img src="img/best-sellers__t-shirts.jpeg" alt="Modelo usando uma camisa branca com estampa nas costas" width="300px" height="400px">
                 <h3>Camisetas</h3>
                 <p>A partir de</p>
                 <span class="price">R$ 25,90</span>
@@ -89,7 +89,7 @@
             </div>
 
             <div class="swiper-slide best-sellers__item">
-                <img src="img/moletom.jpeg" alt="Modelo usando moletom branco" width="300px" height="400px">
+                <img src="img/best-sellers__hoodie.jpeg" alt="Modelo usando moletom branco" width="300px" height="400px">
                 <h3>Moletons</h3>
                 <p>A partir de</p>
                 <span class="price">R$ 75,90</span>
@@ -97,7 +97,7 @@
             </div>
 
             <div class="swiper-slide best-sellers__item">
-                <img src="img/ecoobag.jpeg" alt="Ecobag com desenho animado" width="300px" height="400px">
+                <img src="img/best-sellers__ecobag.jpeg" alt="Ecobag com desenho animado" width="300px" height="400px">
                 <h3>Ecobag</h3>
                 <p>A partir de</p>
                 <span class="price">R$ 7,90</span>
@@ -105,7 +105,7 @@
             </div>
 
             <div class="swiper-slide best-sellers__item">
-                <img src="img/polojpeg.jpeg" alt="Modelo usando uma camisa polo branca" width="300px" height="400px">
+                <img src="img/best-sellers__polo.jpeg" alt="Modelo usando uma camisa polo branca" width="300px" height="400px">
                 <h3>Polo</h3>
                 <p>A partir de</p>
                 <span class="price">R$ 43,90</span>
@@ -120,7 +120,9 @@
 
 <!-- ===== PROMO BANNER ===== -->
 <section class="banner">
-    <img src="img/personalizado.png" width="100%">    
+    <figure class="banner-promo__image">
+        <img src="img/banner__promo-banner.png" alt="promo" width="100%"> 
+    </figure>  
 </section>
 
 <!-- ===== CATALOG ===== -->
@@ -130,7 +132,7 @@
     <div class="catalog__list">
 
         <div class="catalog__card">
-            <img src="img/camisa1.jpeg" alt="Popular Shirts" width="400" height="400">
+            <img src="img/catalog__popular.jpeg" alt="Popular Shirts" width="400" height="400">
             <h3>POPULAR</h3>
             <p>Vista a tendência:</p>
             <span>Crie suas camisas personalizadas com estilo.</span>
@@ -138,7 +140,7 @@
         </div>
 
         <div class="catalog__card">
-            <img src="img/camisa2.jpeg" alt="School Shirts" width="400" height="400">
+            <img src="img/catalog__school.jpeg" alt="School Shirts" width="400" height="400">
             <h3>ESCOLA</h3>
             <p>A sua escola com mais identidade:</p>
             <span>Crie camisas para alunos e professores.</span>
@@ -146,7 +148,7 @@
         </div>
 
         <div class="catalog__card">
-            <img src="img/camisa3.jpeg" alt="Sports Shirts" width="400" height="400">
+            <img src="img/catalog__sport.jpeg" alt="Sports Shirts" width="400" height="400">
             <h3>ESPORTE</h3>
             <p>Ganhe em estilo e performance:</p>
             <span>Com nossas camisas esportivas personalizadas.</span>
@@ -154,7 +156,7 @@
         </div>
 
         <div class="catalog__card">
-            <img src="img/camisa4.jpeg" alt="Religion Shirts" width="400" height="400">
+            <img src="img/catalog__religion.jpeg" alt="Religion Shirts" width="400" height="400">
             <h3>RELIGIÃO</h3>
             <p>Camisetas de fé: personalize</p>
             <span>E demonstre sua crença com orgulho</span>
@@ -165,17 +167,17 @@
 </section>
 
 
-<!-- ===== PROMO BANNER ===== -->
+<!-- ===== BANNER ===== -->
 <section class="banner">
     <figure class="banner__image">
-        <img src="img/blusas2.png" alt="Blusas" width="100%">
+        <img src="img/banner__banner.png" alt="Blusas" width="100%">
     </figure>
 </section>
 
 <!-- ===== LOGO ===== -->
-<section class="logo">
+<section id="about" class="logo">
     <figure class="logo__image">
-        <img src="img/LOGO.png" alt="Logo da Faça Arte">
+        <img src="img/logo.png" alt="Logo da Faça Arte">
     </figure>
 </section>  
 
@@ -236,7 +238,7 @@
 </section>
 
 <!-- ===== FOOTER ===== -->
-<footer class="footer">
+<footer id="contact" class="footer">
     <div class="footer__item">
         <p>Faça Arte - Todos os direitos reservados</p>
     </div>
