@@ -1,0 +1,52 @@
+.information {
+    background-color: #630000;
+}
+
+.information__top-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c03434;
+    height: 50px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.information__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 320px;
+    background-color: #a50303;
+    color: #fff;
+}
+
+.information__card {
+    width: 170px;
+    color: #fff;
+}
+
+.information__card ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.information__card a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.information__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.information__footer p {
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: #630000;
+    color: #fff;
+    font-size: 12px;
+}
