@@ -572,7 +572,7 @@ footer {
     }
 
     .information__card h3,
-    .information__card ul li {
+    .information__card ul li{
         width: 100%;
         max-width: 100px;
         font-size: 0.8rem;
