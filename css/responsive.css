@@ -575,11 +575,11 @@
     /* CATALOG */
     .catalog h1 {
         font-size: 1.4rem;        
-        margin: 10px 0 30px 40px;
+        margin: 10px 0 30px 20px;
     }
 
     .catalog__list {
-        padding: 0 10px 0 10px;
+        padding: 0 20px;
         column-gap: 10px;
     }
 
